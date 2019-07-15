@@ -4,11 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
     <title>Justin Arata | Portfolio</title>
 </head>
 <body>
@@ -30,7 +32,7 @@
         </ul>
     </nav>
     <div data-spy="scroll" data-target="#nav">
-        <div class="jumbotron">
+        <div class="jumbotron banner">
             <h1>Hello.</h1>
             <h1>I'm Justin.</h1>
             <a class="btn btn-primary" href="#" role="button">Contact Me</a>
@@ -69,35 +71,70 @@
         </div>
         <div>
             <h2 id="projects">Projects</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget mi justo.
-                Ut aliquam, risus eu semper commodo, lorem neque facilisis ante, eu ullamcorper
-                felis nibh ac risus. In blandit, erat vitae pharetra sodales, eros enim bibendum
-                sem, hendrerit ornare ante tortor ut tellus. Quisque ex ex, commodo sed turpis
-                vel, ultrices luctus diam. Donec ante eros, semper ac imperdiet id, consequat
-                non risus. Integer iaculis congue mi vel rhoncus. Praesent arcu justo, vestibulum
-                at iaculis a, porta quis velit. Duis non diam sit amet lacus dapibus molestie.
-                Proin rhoncus eget nunc vitae feugiat. Nulla pellentesque, ex non bibendum
-                accumsan, risus enim pellentesque justo, sit amet sodales augue orci iaculis
-                nibh. Pellentesque vehicula risus vitae sem vehicula, auctor feugiat mauris
-                mollis. Nam tortor nibh, hendrerit sed elit sit amet, venenatis convallis erat.
-            </p>
+            <div>
+                <div class="card">
+                    <img class="card-img-top" src="img/sjarchitects.png">
+                    <div class="card-body">
+                        <h5 class="card-title">Smith & Jones Architects</h5>
+                        <p class="card-text">
+                            This was my first project that incorporated responsive web design, pre-processors,
+                            and Document Object Model.
+                        </p>
+                        <ul class="card-text">
+                            <li>HTML5</li>
+                            <li>CSS</li>
+                            <li>Less</li>
+                            <li>JavaScript</li>
+                            <li>Git</li>
+                        </ul>
+                        <a class="btn btn-primary" href="https://smithjones.netlify.com/" role="button">Visit</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="img/wunderlist.png">
+                    <div class="card-body">
+                        <h5 class="card-title">WunderList 2.0</h5>
+                        <p class="card-text">
+                            This project was was part of a build week, where I was was to build out a
+                            back-end API with client side authentication, cookies, and middleware.
+                        </p>
+                        <ul class="card-text">
+                            <li>Node.JS</li>
+                            <li>Express</li>
+                            <li>SQL</li>
+                            <li>PostgreSQL</li>
+                            <li>CORS</li>
+                            <li>JWT</li>
+                        </ul>
+                        <a class="btn btn-primary" href="https://github.com/wunderlist-2-0/Back_End" role="button">Visit</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Another Project</h5>
+                        <p class="card-text">
+                            This project will need to be filled in
+                        </p>
+                        <ul class="card-text">
+                            <li>HTML5</li>
+                            <li>CSS</li>
+                            <li>Less</li>
+                            <li>JavaScript</li>
+                            <li>Git</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
         <div>
             <h2 id="contact">Contact</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget mi justo.
-                Ut aliquam, risus eu semper commodo, lorem neque facilisis ante, eu ullamcorper
-                felis nibh ac risus. In blandit, erat vitae pharetra sodales, eros enim bibendum
-                sem, hendrerit ornare ante tortor ut tellus. Quisque ex ex, commodo sed turpis
-                vel, ultrices luctus diam. Donec ante eros, semper ac imperdiet id, consequat
-                non risus. Integer iaculis congue mi vel rhoncus. Praesent arcu justo, vestibulum
-                at iaculis a, porta quis velit. Duis non diam sit amet lacus dapibus molestie.
-                Proin rhoncus eget nunc vitae feugiat. Nulla pellentesque, ex non bibendum
-                accumsan, risus enim pellentesque justo, sit amet sodales augue orci iaculis
-                nibh. Pellentesque vehicula risus vitae sem vehicula, auctor feugiat mauris
-                mollis. Nam tortor nibh, hendrerit sed elit sit amet, venenatis convallis erat.
-            </p>
+            <form>
+                <div>
+                    <input type="text" class="form-control" placeholder="Name">
+                    <input type="email" class="form-control" placeholder="Email">
+                    <textarea class="form-control" placeholder="Your message to me..."></textarea>
+                </div>
+            </form>
         </div>
     </div>
 
