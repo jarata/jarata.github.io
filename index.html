@@ -14,8 +14,12 @@
     <title>Justin Arata | Portfolio</title>
 </head>
 <body>
-    <nav id="nav" class="navbar">
+<div class="container">
+    <nav id="nav" class="navbar navbar-toggleable-md navbar-inverse">
         <a class="navbar-brand" href="#">BRAND HERE</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+
+        </button>
         <ul class="nav">
             <li class="nav-item">
                 <a class="nav-link" href="#about">About Me</a>
@@ -35,7 +39,20 @@
         <div class="jumbotron banner">
             <h1>Hello.</h1>
             <h1>I'm Justin.</h1>
-            <a class="btn btn-primary" href="#" role="button">Contact Me</a>
+            <div class="carousel-fade" data-ride="carousel">
+                <div class="carousel-item active">
+                    <h3 class="d-block w-100">Full-Stack Developer</h3>
+                </div>
+                <div class="carousel-item">
+                    <h3 class="d-block w-100">Chef</h3>
+                </div>
+                <div class="carousel-item">
+                    <h3 class="d-block w-100">Gamer</h3>
+                </div>
+                <div class="carousel-item">
+                    <h3 class="d-block w-100">Outdoors enthusiast</h3>
+                </div>
+            </div>
         </div>
         <div>
             <h2 id="about">A bit about myself...</h2>
@@ -55,26 +72,41 @@
         </div>
         <div>
             <h2 id="skills">Skills</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget mi justo.
-                Ut aliquam, risus eu semper commodo, lorem neque facilisis ante, eu ullamcorper
-                felis nibh ac risus. In blandit, erat vitae pharetra sodales, eros enim bibendum
-                sem, hendrerit ornare ante tortor ut tellus. Quisque ex ex, commodo sed turpis
-                vel, ultrices luctus diam. Donec ante eros, semper ac imperdiet id, consequat
-                non risus. Integer iaculis congue mi vel rhoncus. Praesent arcu justo, vestibulum
-                at iaculis a, porta quis velit. Duis non diam sit amet lacus dapibus molestie.
-                Proin rhoncus eget nunc vitae feugiat. Nulla pellentesque, ex non bibendum
-                accumsan, risus enim pellentesque justo, sit amet sodales augue orci iaculis
-                nibh. Pellentesque vehicula risus vitae sem vehicula, auctor feugiat mauris
-                mollis. Nam tortor nibh, hendrerit sed elit sit amet, venenatis convallis erat.
-            </p>
+            <div class="row skills">
+                <div class="card skill col-sm">
+                    <img class="card-body" src="img/iconfinder_badge-html-5_317755.png">
+                </div>
+                <div class="card skill col-sm">
+                    <img class="card-body" src="img/iconfinder_5351_-_CSS3_1313568.png">
+                </div>
+                <div class="card skill col-sm">
+                    <img class="card-body" src="img/iconfinder_198_Less_logo_logos_4373202.png">
+                </div>
+                <div class="card skill col-sm">
+                    <img class="card-body" src="img/iconfinder_187_Js_logo_logos_4373213.png">
+                </div>
+            </div>
+            <div class="row skills">
+                <div class="card skill col-sm">
+                    <img class="card-body" src="img/iconfinder_social_media_social_media_logo_git_1907123.png">
+                </div>
+                <div class="card skill col-sm">
+                    <img class="card-body" src="img/iconfinder_react_1296845.png">
+                </div>
+                <div class="card skill col-sm">
+                    <img class="card-body" src="img/iconfinder_nodejs-light_1012820.png">
+                </div>
+                <div class="card skill col-sm">
+                    <img class="card-body" src="img/iconfinder_267_Python_logo_4375050.png">
+                </div>
+            </div>
         </div>
         <div>
             <h2 id="projects">Projects</h2>
-            <div>
-                <div class="card">
+            <div class="projects">
+                <div class="card project">
                     <img class="card-img-top" src="img/sjarchitects.png">
-                    <div class="card-body">
+                    <div class="card-body bg-light">
                         <h5 class="card-title">Smith & Jones Architects</h5>
                         <p class="card-text">
                             This was my first project that incorporated responsive web design, pre-processors,
@@ -90,9 +122,9 @@
                         <a class="btn btn-primary" href="https://smithjones.netlify.com/" role="button">Visit</a>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card project">
                     <img class="card-img-top" src="img/wunderlist.png">
-                    <div class="card-body">
+                    <div class="card-body bg-light">
                         <h5 class="card-title">WunderList 2.0</h5>
                         <p class="card-text">
                             This project was was part of a build week, where I was was to build out a
@@ -109,8 +141,8 @@
                         <a class="btn btn-primary" href="https://github.com/wunderlist-2-0/Back_End" role="button">Visit</a>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card-body">
+                <div class="card project">
+                    <div class="card-body bg-light">
                         <h5 class="card-title">Another Project</h5>
                         <p class="card-text">
                             This project will need to be filled in
@@ -137,7 +169,7 @@
             </form>
         </div>
     </div>
-
+</div>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
