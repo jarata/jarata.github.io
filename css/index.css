@@ -1,0 +1,15 @@
+.banner {
+  height: 100vh;
+  margin-top: 50px;
+}
+
+.skills .skill {
+  margin: 2%;
+  height: 100%;
+}
+
+.projects-container .projects .project {
+  width: 30%;
+}
+
+/*# sourceMappingURL=index.css.map */
