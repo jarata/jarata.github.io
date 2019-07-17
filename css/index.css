@@ -3,13 +3,27 @@
   margin-top: 50px;
 }
 
-.skills .skill {
+.about-container {
+  padding-top: 60px;
+}
+
+.skills-container {
+  padding-top: 60px;
+}
+.skills-container .skills .skill {
   margin: 2%;
   height: 100%;
 }
 
+.projects-container {
+  padding-top: 60px;
+}
 .projects-container .projects .project {
   width: 30%;
+}
+
+.contact-container {
+  padding-top: 60px;
 }
 
 /*# sourceMappingURL=index.css.map */

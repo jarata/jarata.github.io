@@ -5,13 +5,20 @@ $background-color: white;
   height: 100vh;
   margin-top: 50px;
 }
-.skills {
-  .skill {
-    margin: 2%;
-    height: 100%;
+.about-container {
+  padding-top: 60px;
+}
+.skills-container {
+  padding-top: 60px;
+  .skills {
+    .skill {
+      margin: 2%;
+      height: 100%;
+    }
   }
 }
 .projects-container {
+  padding-top: 60px;
   .projects {
     .project {
       width: 30%;
@@ -19,6 +26,7 @@ $background-color: white;
   }
 }
 .contact-container {
+  padding-top: 60px;
   .contact {
 
   }
